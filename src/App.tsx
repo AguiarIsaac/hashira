@@ -1,6 +1,6 @@
 import { About } from "./Components/About";
 import { Header } from "./Components/Header";
-import { Possibilites } from "./Components/Possibilites";
+import { Tecnologies } from "./Components/Tecnologies";
 import { GlobalStyles } from "./styles/GlobalStyles";
 
 export function App() {
@@ -8,7 +8,7 @@ export function App() {
     <>
       <Header />
       <About />
-      <Possibilites />
+      <Tecnologies />
       <GlobalStyles />
     </>
   )

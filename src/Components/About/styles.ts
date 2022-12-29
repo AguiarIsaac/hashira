@@ -44,12 +44,12 @@ export const GaleryElement = styled.div`
   img {
     width: 16rem;
     height: 14rem;
-    filter: drop-shadow(rgba(0,0,0,0.25) 4px 16px 24px);
     cursor: pointer;
     transition:all .4s ease-in-out;
 
     &:hover {
       transform: scale(1.05);
+      filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.17));
     }
   }
 `
@@ -60,6 +60,11 @@ export const Services = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
   
 
   h3 {

@@ -64,11 +64,11 @@ export const HeaderContainer = styled.div`
     margin-top: 1rem;
     padding: 0.5rem 2rem;
     background: linear-gradient(90deg, rgba(191,79,69,1) 0%, rgba(217,78,115,1) 60%);
-    filter: drop-shadow(rgba(0, 0, 0, 0.25) 4px 16px 24px);
 
     &:hover {
       background: linear-gradient(180deg, rgba(191,79,69,1) 0%, rgba(217,78,115,1) 60%);
-      transition: 0.2s;
+      transition: 0.4s;
+      filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.17));
     }
   }
 `
