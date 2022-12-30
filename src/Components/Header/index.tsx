@@ -7,7 +7,7 @@ import Brazil from "../../assets/images/brasil.png";
 
 export function Header() {
   return (
-    <HeaderComponent>
+    <HeaderComponent id="Home">
       <NavComponent>
         <div className="logo">
           <img src={Logo} alt="Logo" />
