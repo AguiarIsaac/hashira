@@ -32,6 +32,31 @@ export const NavComponent = styled.nav`
     align-items: center;
     gap: 0.5rem;
   }
+
+  div.links a {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  div.links a::before {
+    content: '';
+    background-color:#BF4F45;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  div.links a:hover {
+    color: #BF4F45;
+  }
+
+  div.links a:hover::before{
+    width: 100%;
+  }
 `
 
 export const HeaderContainer = styled.div`

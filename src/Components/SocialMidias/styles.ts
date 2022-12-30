@@ -7,9 +7,23 @@ export const SocialMidiasElement = styled.div`
 
   a {
     width: 1.4rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
 
-    &:hover {
-      border-bottom: 1px solid #BF4F45;
-    }
+  a::before {
+    content: '';
+    background-color:#BF4F45;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover::before{
+    width: 100%;
   }
 `

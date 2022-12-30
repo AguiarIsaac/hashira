@@ -5,7 +5,7 @@ import { PossibilitesSection, TecnologiesComponent } from "./styles";
 
 export function Tecnologies() {
   return (
-    <PossibilitesSection>
+    <PossibilitesSection id="Tecnologies">
       <h4>Tecnologias</h4>
 
       <TecnologiesComponent>

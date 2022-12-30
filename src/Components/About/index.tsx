@@ -9,7 +9,7 @@ import globo from "../../assets/svg/globo-white.svg";
 
 export function About() {
   return (
-    <AboutSection>
+    <AboutSection id="About">
       <AboutElement>
         <h2>Um pouco sobre minha carreira...</h2>
         <div className="line"></div>
@@ -30,7 +30,7 @@ export function About() {
         <img src={desktop} alt="Projeto feed" />
       </GaleryElement>
 
-      <Services>
+      <Services id="Services">
         <h3>Serviços</h3>
 
         <div className="groupservices">

@@ -1,4 +1,5 @@
 import { HeaderComponent, HeaderContainer, HeaderFooter, NavComponent } from "./styles";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { SocialMidias } from "../SocialMidias";
 import Logo from "../../assets/images/hashira-ligth.png";
 import Eua from "../../assets/images/eua.png";
@@ -10,13 +11,13 @@ export function Header() {
       <NavComponent>
         <div className="logo">
           <img src={Logo} alt="Logo" />
-          {/* <span>Hashira</span> */}
         </div>
 
         <div className="links">
-          <a href="#">Sobre</a>
-          <a href="#">Tecnologias</a>
-          <a href="#">Soluções</a>
+          <AnchorLink href='#About'>Sobre</AnchorLink>
+          <AnchorLink href="#Services">Soluções</AnchorLink>
+          <AnchorLink href='#Tecnologies'>Tecnologias</AnchorLink>
+          
         </div>
       </NavComponent>
 
