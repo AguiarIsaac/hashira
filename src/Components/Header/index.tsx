@@ -25,7 +25,7 @@ export function Header() {
         <div className="title">
           <h1>Isaac Aguiar</h1>
           <span>| Full-Stack Developer |</span>
-          <a href="#">Saiba mais</a>
+          <AnchorLink href='#About'>Saiba mais</AnchorLink>
         </div>
       </HeaderContainer>
 
