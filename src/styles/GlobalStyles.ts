@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
   }
 
   img {
