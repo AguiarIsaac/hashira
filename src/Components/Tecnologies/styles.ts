@@ -6,6 +6,7 @@ export const PossibilitesSection = styled.section`
   text-align: center;
   gap: 2rem;
   background: #202124;
+  /* height: 820px; */
 
 
   div.line {
@@ -53,5 +54,12 @@ export const TecnologiesComponent = styled.div`
       transform: scale(1.05);
       filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.17));
     }
+  }
+
+  button#front,
+  button#back,
+  button#mobile {
+    background:rgba(217,78,115,1);
+    color: aliceblue;
   }
 `
