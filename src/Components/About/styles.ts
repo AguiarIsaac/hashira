@@ -60,6 +60,7 @@ export const Services = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  flex-wrap: wrap;
 
   width: 80%;
   max-width: 1300px;
@@ -77,6 +78,7 @@ export const Services = styled.div`
   div.groupservices {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: stretch;
     gap: 2rem;
     width: 80%;

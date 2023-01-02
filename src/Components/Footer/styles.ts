@@ -10,6 +10,10 @@ export const FooterElement = styled.footer`
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
 
   div.logoContent {

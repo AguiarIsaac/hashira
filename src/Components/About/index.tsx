@@ -31,7 +31,7 @@ export function About() {
       </GaleryElement>
 
       <Services id="Services">
-        <h3>Serviços</h3>
+        <h3>Soluções</h3>
 
         <div className="groupservices">
           <div className="service">

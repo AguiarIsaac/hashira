@@ -30,13 +30,6 @@ export function Header() {
       </HeaderContainer>
 
       <HeaderFooter>
-        <div className="language">
-          <small>Idioma: </small>
-          <div className="buttons">
-            <button type="button"><img src={Brazil} alt="PT" style={{borderBottom: "1px solid #BF4F45"}}/></button>
-            <button type="button"><img src={Eua} alt="ENG" /></button>
-          </div>
-        </div>
 
         <SocialMidias />
       </HeaderFooter>
