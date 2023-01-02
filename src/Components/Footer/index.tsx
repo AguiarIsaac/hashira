@@ -13,9 +13,9 @@ export function Footer() {
             <h5>Hashira</h5>
           </div>
           <p>
-            De origem Japonesa, Hashira pilar, 
-            que por sua vez é base para qualquer "construção" oferecendo 
-            estabilidade e resistência.
+            Hashira em tradução livre do Japonês significa pilar, 
+            ou seja, representa base sólida, estabilidade e resistência 
+            para qualquer "construção".
           </p>
         </div>
 
