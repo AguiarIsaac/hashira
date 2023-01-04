@@ -1,9 +1,8 @@
 import { HeaderComponent, HeaderContainer, HeaderFooter, NavComponent } from "./styles";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { SocialMidias } from "../SocialMidias";
-import Logo from "../../assets/images/hashira-ligth.png";
-import Eua from "../../assets/images/eua.png";
-import Brazil from "../../assets/images/brasil.png";
+import Logo from "../../assets/images/hashira-ligth.webp";
+
 
 export function Header() {
   return (
