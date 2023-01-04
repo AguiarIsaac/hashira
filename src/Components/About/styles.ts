@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import logo from "../../assets/images/hashira-dark-back.png"
+import logo from "../../assets/images/hashira-dark-back.webp"
 
 export const AboutSection = styled.section`
   background: url(${logo}) right center no-repeat;

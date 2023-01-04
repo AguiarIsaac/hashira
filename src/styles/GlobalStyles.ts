@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
   }
 
   img {

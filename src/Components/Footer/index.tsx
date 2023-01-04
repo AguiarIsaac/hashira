@@ -1,5 +1,5 @@
 import { FooterElement } from "./styles";
-import logo from "../../assets/images/hashira-ligth.png"
+import logo from "../../assets/images/hashira-ligth.webp"
 import { SocialMidias } from "../SocialMidias";
 
 
