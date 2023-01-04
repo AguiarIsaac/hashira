@@ -3,7 +3,7 @@ import logo from "../../assets/images/hashira-dark-back.webp"
 
 export const AboutSection = styled.section`
   background: url(${logo}) right center no-repeat;
-  background-size: contain;
+  background-size: 600px;
   background-color:  #242529;
 `
 
