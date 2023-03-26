@@ -31,11 +31,11 @@ export const FrontEndElement = styled.div`
     h5 {
       font-size: 18px;
       /* font-weight: 700; */
-      color:aliceblue;
+      color: #FFF;
     }
 
     p {
-      color: #BFBFBF;
+      color: #cdcdcd;
       font-weight: 100;
     }
   }

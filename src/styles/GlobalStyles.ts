@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: aliceblue;
+    color: rgb(136, 153, 166);
     cursor: pointer;
     text-decoration: none;
   }

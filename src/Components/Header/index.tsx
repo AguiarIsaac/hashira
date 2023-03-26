@@ -2,6 +2,7 @@ import { HeaderComponent, HeaderContainer, HeaderFooter, NavComponent } from "./
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { SocialMidias } from "../SocialMidias";
 import Logo from "../../assets/images/hashira-ligth.webp";
+import arrowDown from '../../assets/svg/arrow-down.svg'
 
 
 export function Header() {
@@ -24,7 +25,9 @@ export function Header() {
         <div className="title">
           <h1>Isaac Aguiar</h1>
           <span>| Full-Stack Developer |</span>
-          <AnchorLink href='#About'>Saiba mais</AnchorLink>
+          <AnchorLink href='#About' title="Saiba mais">
+            <img src={arrowDown} alt="Saiba mais" />
+          </AnchorLink>
         </div>
       </HeaderContainer>
 

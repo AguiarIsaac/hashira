@@ -1,10 +1,7 @@
 import styled from "styled-components";
-import logo from "../../assets/images/hashira-dark-back.webp"
 
 export const AboutSection = styled.section`
-  background: url(${logo}) right center no-repeat;
-  background-size: 600px;
-  background-color:  #242529;
+  background-color: rgb(31 48 64);
 `
 
 export const AboutElement = styled.div`
@@ -14,9 +11,9 @@ export const AboutElement = styled.div`
   padding: 2rem;
 
   h2 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 100;
-    color: aliceblue;
+    color: #FFF;
     font-family: 'Cormorant Garamond', serif;
   }
 
@@ -28,9 +25,9 @@ export const AboutElement = styled.div`
   }
 
   p {
-    max-width: 30rem;
-    color: #BFBFBF;
-    font-weight: 300;
+    max-width: 28rem;
+    font-size: 18px;
+    color: #cdcdcd;
     font-family: 'Cormorant Garamond', serif;
   }
 `
@@ -70,7 +67,7 @@ export const Services = styled.div`
 
   h3 {
     font-size: 38px;
-    color: aliceblue;
+    color: #FFF;
     font-weight: 300;
     font-family: 'Cormorant Garamond', serif;
   }
@@ -102,11 +99,11 @@ export const Services = styled.div`
   div.service h5 {
     font-size: 16px;
     font-weight: 400;
-    color: aliceblue;
+    color: #FFF;
   }
 
   div.service p {
-    color: #BFBFBF;
+    color: #cdcdcd;
     font-weight: 100;
   }
 

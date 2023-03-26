@@ -6,7 +6,7 @@ export const PossibilitesSection = styled.section`
   flex-direction: column;
   text-align: center;
   gap: 2rem;
-  background: #202124;
+  background:rgb(21, 32, 43);
   /* height: 820px; */
 
 
@@ -19,10 +19,10 @@ export const PossibilitesSection = styled.section`
   }
 
   h4 {
-    color: aliceblue;
+    color: #FFF;
     padding: 2rem;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 100;
   }
 `
@@ -82,6 +82,6 @@ export const TecnologiesComponent = styled.div`
   button#back,
   button#mobile {
     background:rgba(217,78,115,1);
-    color: aliceblue;
+    color: #FFF;
   }
 `
