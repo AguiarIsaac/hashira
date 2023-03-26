@@ -1,8 +1,8 @@
 import { AboutElement, AboutSection, GaleryElement, Services } from "./styles";
 import todo from "../../assets/images/Todo.webp";
 import blog from "../../assets/images/blog.webp";
-import cofee from "../../assets/images/coffee.webp";
-import social from "../../assets/images/social.webp";
+import finan from "../../assets/images/gerenciador.webp";
+import social from "../../assets/images/links.webp";
 import windowicon from "../../assets/svg/window-white.svg"
 import phone from "../../assets/svg/phone-white.svg"
 import globo from "../../assets/svg/globo-white.svg";
@@ -24,10 +24,10 @@ export function About() {
       </AboutElement>
 
       <GaleryElement>
-        <a href="https://coffee-delivery-ten-pi.vercel.app/" title="Coffee delivery" target="_blank"><img src={cofee} alt="Projeto Coffee Delivery" /></a>
-        <a href="https://gitblog-ochre.vercel.app/" title="Github blog" target="_blank"><img src={blog} alt="Projeto BLog" /></a>
-        <a href="https://social-tree-one.vercel.app/" title="Social tree" target="_blank"><img src={social} alt="Projeto feed" /></a>
+        <a href="https://social-links-five.vercel.app/" title="Social tree" target="_blank"><img src={social} alt="social tree" /></a>
+        <a href="https://gitblog-ochre.vercel.app/" title="Github blog" target="_blank"><img src={blog} alt="Blog" /></a>
         <a href="https://todo-list-react-js-delta.vercel.app/" title="Todo list" target="_blank"><img src={todo} alt="Projeto TODO list" /></a>
+        <a href="https://dailyfinancial.vercel.app/" title="gerenciador financeiro" target="_blank"><img src={finan} alt="gerenciador financeiro" /></a>
       </GaleryElement>
 
       <Services id="Services">

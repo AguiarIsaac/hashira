@@ -5,6 +5,7 @@ export const FooterElement = styled.footer`
 
   div.content {
     max-width: 1400px;
+    margin: 0 auto;
     height: 10rem;
     padding: 1rem;
     display: flex;
