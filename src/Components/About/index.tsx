@@ -6,6 +6,7 @@ import social from "../../assets/images/links.webp";
 import windowicon from "../../assets/svg/window-white.svg"
 import phone from "../../assets/svg/phone-white.svg"
 import globo from "../../assets/svg/globo-white.svg";
+import where from "../../assets/images/wherewatch.webp";
 
 export function About() {
   return (
@@ -28,6 +29,8 @@ export function About() {
         <a href="https://gitblog-ochre.vercel.app/" title="Github blog" target="_blank"><img src={blog} alt="Blog" /></a>
         <a href="https://todo-list-react-js-delta.vercel.app/" title="Todo list" target="_blank"><img src={todo} alt="Projeto TODO list" /></a>
         <a href="https://dailyfinancial.vercel.app/" title="gerenciador financeiro" target="_blank"><img src={finan} alt="gerenciador financeiro" /></a>
+        <a href="https://wherewatch.vercel.app/" target="_blank" title="Onde Assistir"><img src={where} alt="Onde Assistir" />
+        </a>
       </GaleryElement>
 
       <Services id="Services">
